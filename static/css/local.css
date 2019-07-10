@@ -1,0 +1,17 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	height: 100%;
+	position: relative;
+}
+.hero-img{
+	height: 100%;	
+}
+[v-cloak] {
+   	  display: none;
+}
+.weui-toast{
+    margin-left: 0px;
+}
