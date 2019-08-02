@@ -20,20 +20,4 @@ export default new Router({
     ]
 })
 
-// router.beforeEach((to, from, next) => {
-//     // to and from are both route objects. must call `next`.
-//     let user = localStorage.getItem('m_token');
-//     if(to.path == '/Login'){
-//         if(user){
-//             next({path:'/'})
-//         }else{
-//             next();
-//         }
-//     }else{
-//         if(!user){
-//             next({path:'/login'})
-//         }else{
-//             next();
-//         }
-//     }
-// });
+
