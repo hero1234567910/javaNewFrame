@@ -90,7 +90,7 @@ export default {
           message: '登录成功',
           type: 'success'
           });
-          self.$router.push("/");
+          self.$router.push("/Home");
         } else {
           self.$message.error(res.data.msg);
         }

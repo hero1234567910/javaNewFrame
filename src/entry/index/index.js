@@ -15,7 +15,7 @@ router.beforeEach((to, from, next) => {
   let user = localStorage.getItem('m_token');
   if(to.path == '/Login'){
       if(user){
-          next({path:'/'})
+          next({path:'/Home'})
       }else{
           next();
       }

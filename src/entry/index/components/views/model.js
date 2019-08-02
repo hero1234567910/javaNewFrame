@@ -16,6 +16,13 @@ function model(http){
       		'Content-Type': 'application/json;charset=utf-8'
       	}
       });
+    },
+    getMenu(data){
+      return http.get(evn.SEC_HOSAPI + '/sys/user/getMenuByUserGuid',data,{
+        headers:{
+          'Content-Type': 'application/json;charset=utf-8',
+      	}
+      })
     }
 
   }
