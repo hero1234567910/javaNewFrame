@@ -7,7 +7,7 @@ const path = require('path')
 module.exports = {
   dev: {
     env: require('./dev.env'),  // 引入当前目录下的dev.env.js，用来指明开发环境
-    port: 3000,  // dev-server的端口号，可以自行更改
+    port: 3001,  // dev-server的端口号，可以自行更改
     autoOpenBrowser: true,  // 是否自定代开浏览器
 
     // Paths
