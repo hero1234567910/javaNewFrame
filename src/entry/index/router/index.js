@@ -1,22 +1,23 @@
 import Vue from 'vue'
-import Router from 'vue-router'
-import userBinding from '../components/userBinding.vue'
-import home from '../components/home.vue'
-import mycenter from '../components/mycenter.vue'
+import Router from 'vue-router';
+import Login from '../components/views/Login.vue';
+import Home from '../components/views/home.vue';
 
-Vue.use(Router);
+Vue.use(Router)
 
 export default new Router({
-  routes: [
-  	{
-      path: '/',
-      name: 'mycenter',
-      component: mycenter
-   },
-    {
-      path: '/userBinding',
-      name: 'userBinding',
-      component: userBinding
-    }
-  ]
+    routes:[
+        {
+            path:'/Login',
+            name:'Login',
+            component:Login
+        },
+        {
+            path:'/Home',
+            name:'Home',
+            component:Home
+        },
+    ]
 })
+
+
